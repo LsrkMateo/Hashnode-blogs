@@ -102,7 +102,9 @@ In the case of npm, two files are generated: **package.json** and **package-lock
 
 ![Use requirements.txt | PyCharm Documentation](https://resources.jetbrains.com/help/img/idea/2023.1/py_req_notification.png align="left")
 
-In the case of pip, a file called requirements.txt is generated that contains a list of all dependencies and their exact versions. This file can be used to install all necessary dependencies in a new environment
+In the case of pip, a file called requirements.txt is generated that contains a list of all dependencies and their exact versions. This file can be used to install all necessary dependencies in a new environment.
+
+> Last but not least, you must put in your .gitignore file the directory: node\_modules
 
 ## Use .gitignore
 
